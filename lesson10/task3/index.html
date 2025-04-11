@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+        <style>
+          .header{
+    height:40px;
+    background-color:yellow;
+    display:flex;
+    align-items:center;
+    
+    margin:0;
+}
+.navigation{
+    margin:0;
+    display:flex;
+   /* list-style-type: none;*/
+    
+}
+.navigatiom_item{
+    margin-left:16px;
+    
+}
+.page{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+.content{
+    flex-grow:1;
+    display:flex;
+}
+.dashboard{
+    flex-grow: 1;
+    background-color:pink;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+.news{
+    width:200px;
+    background-color:grey;
+    justify-content: center;
+    margin:0;
+
+}
+.news_content{
+    display:flex;
+    /*margin-top:16px;*/
+   justify-content: center;
+   margin:0;
+}
+.news_content> h2{
+margin:16px 0px;
+}
+
+.three{
+  display:flex;
+  flex-direction: column;
+  height:40px;
+    margin:0;
+   
+justify-content: center;
+   /*list-style-type: none;*/
+}
+.one{
+        margin-left:16px;
+        margin-top:17px;
+     }
+.footer{
+    height:40px;
+    background-color:green;
+    display:flex;
+}
+.footer_text{
+margin:auto;
+}
+        </style>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="navigation">
+                <span class="navigatiom_item">About</span>
+                <span class="navigatiom_item">Products</span>
+                <span class="navigatiom_item">Contacts</span>
+                </ul>
+        </header>
+        <main class="content">
+            <section class="dashboard">
+                <h2>I can use Flexbox!!!</h2>
+            </section>
+            <aside class="news">
+                <div class="news_content">
+                    <h2>News</h2>
+                </div>
+    
+                <div class="three">
+                    <span class="one">News 1</span>
+                    <span class="one">New 2</span>
+                    <span class="one">News 3</span>
+                    </ul>
+    
+            </aside>
+        </main>
+        <footer class="footer"><span class="footer_text">Footer</span></footer>
+    </div>
+</body>
+</html>

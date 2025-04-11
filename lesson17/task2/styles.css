@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 500px;
+    margin: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td,
+th {
+    padding: 4px;
+    text-align: right;
+}
+tr{
+    height:40px;
+}
+th{
+    background-color: aqua;
+}
+tfoot{
+    font-weight: 700;
+}
+caption{
+    margin-bottom: 8px;
+}
+tbody>tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+tbody>tr:hover{
+    color:white;
+    background-color: #aaa;
+}
+div {
+    overflow-x: auto;
+}

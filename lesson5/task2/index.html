@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            [data-description] {
+               background-color: lightgrey;
+            }
+            [href] {
+                font-size: 24px;
+            }
+            [href][target] {
+                color: blue;
+            }
+            [data-description="archors"] {
+                color: forestgreen;
+            }
+            [type="text"] {
+                background-color: orange;
+            }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Селекторы аттрибутов</h1>
+    </header>
+    <main>
+        <p data-description="attributes">
+            Атрибуты используются, чтобы ассоциировать некоторые данные с определенным элементом
+        </p>
+        <p data-description="archors">
+            Ссылки используются в HTML документах для перехода на другие страницы <a href="#">того же</a> или <a target="_blank" href="https://www.wikipedia.org">других</a> веб-сайтов
+        </p>
+        <div>
+            <p>
+                Инпуты могут не только принимать тестовые данные от пользователя, а и выступать в виде чекбоксов и других элементов.
+            </p>
+            <input type="text" />
+            <input type="checkbox" />
+            <input type="password" />
+        </div>
+    </main>
+</body>
+</html>
