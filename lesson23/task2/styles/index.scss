@@ -1,0 +1,80 @@
+@import 'breakpoints.scss';
+*{
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square{
+    width:100px;
+    height:100px;
+    margin:8px;
+    background-color: coral;
+    @include for-extra-small {
+            background-color: #ff7f50;
+        }
+    
+        @include for-media-up {
+            background-color: #8a2be2;
+        }
+    
+        @include for-large {
+            background-color: #a61;
+        }
+    
+        @include for-extra-large {
+            background-color: #c47;
+        }
+                 @include for-extra-small1 {
+                     background-color: #ff7f50;
+                 }
+        
+                 @include for-media-up1 {
+                     background-color: #8a2be2;
+                 }
+        
+                 @include for-large1 {
+                     background-color: #a61;
+                 }
+        
+                 @include for-extra-large1 {
+                     background-color: #c47;
+                 }
+}
+.container{
+@include for-extra-small {
+        display:flex;
+    }
+
+    @include for-media-up {
+        display:flex;
+    }
+
+    @include for-large {
+        display:flex;
+    }
+
+    @include for-extra-large {
+        display:flex;
+    }
+    @include for-extra-small1{
+        display:flex;
+        flex-direction: column;
+    }
+    @include for-media-up1{
+        display:flex;
+        flex-direction: column;
+    }
+    @include for-large1{
+    display: flex;
+        flex-direction: column;
+    }
+    @include for-extra-large1{
+        display: flex;
+        flex-direction: column;
+    }
+}
