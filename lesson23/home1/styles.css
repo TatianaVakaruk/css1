@@ -5,7 +5,6 @@
 
 .menu {
   padding-left: 3em;
-  position: relative;
   margin: 0;
   display: flex;
   list-style-type: none;
@@ -15,11 +14,12 @@
   line-height: 3em;
   color: white;
   cursor: pointer;
+  position: relative;
 }
 .menu__item_active {
   color: yellow;
 }
-.menu__item_active:hover > .submenu {
+.menu__item_active:hover .submenu {
   display: block;
   cursor: pointer;
 }

@@ -6,7 +6,7 @@
 .menu {
 
     padding-left: 3em;
-    position:relative;
+    
     margin: 0;
     display: flex;
 
@@ -19,7 +19,7 @@
         line-height: 3em;
         color: white;
         cursor: pointer;
-
+         position:relative;
         &_active {
             color: yellow;
 
@@ -27,7 +27,7 @@
 
         }
 
-       &_active:hover>.submenu {
+       &_active:hover .submenu {
 
             display:block;
 
