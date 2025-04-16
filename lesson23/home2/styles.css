@@ -31,13 +31,13 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media screen and (min-width: 599px) {
+@media screen and (min-width: 600px) {
   .products {
     display: flex;
     flex: 2;
   }
 }
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 900px) {
   .contant {
     display: flex;
   }
