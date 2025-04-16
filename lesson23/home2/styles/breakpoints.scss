@@ -30,8 +30,8 @@ span {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-$sm:599px;
-$md:899px;
+$sm:600px;
+$md:900px;
 @mixin for-medium {
     @media screen and (min-width:$sm)  {
         @content;
