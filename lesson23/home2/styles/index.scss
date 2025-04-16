@@ -1,0 +1,13 @@
+@import 'breakpoints.scss';
+
+@include for-medium{
+    .products {
+            display: flex;
+            flex: 2;
+        }
+}
+@include for-large{
+    .contant {
+            display: flex;
+        }
+}
