@@ -6,7 +6,7 @@
 .menu {
 
     padding-left: 3em;
-
+    position:relative;
     margin: 0;
     display: flex;
 
@@ -27,9 +27,9 @@
 
         }
 
-        &_active:hover>.submenu {
+       &_active:hover>.submenu {
 
-            visibility: visible;
+            display:block;
 
             cursor: pointer;
         }
@@ -65,6 +65,7 @@
     flex-direction: column;
     justify-content: center;
     display: none;
+    position:absolute;
 
     &__item {
         padding-left: 8px;
